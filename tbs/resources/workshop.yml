@@ -1,0 +1,20 @@
+apiVersion: training.eduk8s.io/v1alpha2
+kind: Workshop
+metadata:
+  name: tanzu-build-service
+spec:
+  vendor: vmware
+  title: Tanzu Build Service
+  description: Making secure images with Tanzu Build Service
+  url: https://github.com/techgnosis/tanzu-edukates
+  content:
+    image: harbor.lab.home/library/eduk8s-tbs:latest
+  duration: 60m
+  session:
+    namespaces:
+      budget: small
+    applications:
+      console:
+        enabled: true
+      editor:
+        enabled: true

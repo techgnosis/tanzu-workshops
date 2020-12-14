@@ -1,0 +1,8 @@
+name: TBS
+
+modules:
+    activate:
+    - workshop-overview
+    - setup-environment
+    - exercises/01-hello
+    - workshop-summary
