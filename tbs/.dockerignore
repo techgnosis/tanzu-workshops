@@ -1,0 +1,8 @@
+.gitignore
+Dockerfile
+README.md
+resources
+build-docker.sh
+install.sh
+.eduk8signore
+.dockerignore

@@ -3,8 +3,6 @@ modules:
     name: Workshop Overview
   setup-environment:
     name: Setup Environment
-  exercises/01-hello:
-    name: Hello
   workshop-summary:
     name: Workshop Summary
     exit_sign: Finish Workshop
