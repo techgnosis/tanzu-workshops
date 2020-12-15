@@ -3,6 +3,18 @@ modules:
     name: Workshop Overview
   setup-environment:
     name: Setup Environment
+  lessons/01:
+    name: What is a buildpack?
+  lessons/02:
+    name: Configure which buildpacks you want to use
+  lessons/03:
+    name: Configure which base images you want to use
+  lessons/04:
+    name: Put it all together
+  lessons/05:
+    name: Build an app into an OCI image
+  lessons/06:
+    name: Keep that OCI image up-to-date
   workshop-summary:
     name: Workshop Summary
     exit_sign: Finish Workshop

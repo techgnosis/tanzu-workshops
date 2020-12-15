@@ -1,1 +1,3 @@
-Directory for all the custom executables in the image
+Directory for all the additional executables in the image
+
+Refer to .gitignore to find out what executables belong in here
