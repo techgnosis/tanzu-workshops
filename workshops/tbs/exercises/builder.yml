@@ -1,0 +1,23 @@
+apiVersion: kpack.io/v1alpha1
+kind: Builder
+metadata:
+  name: my-workshop-builder
+spec:
+  tag: gcr.io/sample/builder
+  serviceAccount: default
+  stack: 
+    name: bionic-stack
+    kind: ClusterStack
+  store: 
+    name: sample-cluster-store
+    kind: ClusterStore
+  order:
+  - group:
+    - id: paketo-buildpacks/java
+  - group:
+    - id: paketo-buildpacks/nodejs
+  - group:
+    - id: kpack/my-custom-buildpack
+      version: 1.2.3
+    - id: kpack/my-optional-custom-buildpack
+      optional: true

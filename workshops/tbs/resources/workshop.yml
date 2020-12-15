@@ -12,12 +12,14 @@ spec:
     namespaces:
       budget: large
     applications:
+      docker:
+        enabled: true
       terminal:
         enabled: true
       console:
-        enabled: true
+        enabled: false
       editor:
-        enabled: true
+        enabled: false
     objects:
       - apiVersion: rbac.authorization.k8s.io/v1
         kind: Role
@@ -31,6 +33,8 @@ spec:
           - builders
           - images
           - sourceresolvers
+          - clusterstacks
+          - clusterstores
           verbs:
           - get
           - list
