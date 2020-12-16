@@ -1,9 +1,9 @@
 apiVersion: kpack.io/v1alpha1
 kind: ClusterStore
 metadata:
-  name: <myclusterstore>
+  name: <my clusterstore>
 spec:
   sources:
-  - image: <buildpack>
-  - image: <buildpack>
-  - image: <buildpack>
+  - image: <buildpack location>
+  - image: <buildpack location>
+  - image: <buildpack location>

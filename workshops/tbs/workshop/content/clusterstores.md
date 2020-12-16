@@ -21,7 +21,7 @@ cat clusterstore.yml
 
 You can see that all we need to provide is a name and a list of buildpacks.
 
-**`ClusterStore`s are cluster-scoped resources. Please name your `ClusterStore` something unique**
+**`ClusterStore`s are cluster-scoped resources. You MUST name your `ClusterStore` something unique**
 
 Go ahead and name your `ClusterStore` and add the buildpack images that you picked.
 
