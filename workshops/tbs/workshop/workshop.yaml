@@ -4,10 +4,11 @@ modules:
     activate:
     - workshop-overview
     - setup-environment
-    - lessons/01
-    - lessons/02
-    - lessons/03
-    - lessons/04
-    - lessons/05
-    - lessons/06
+    - docker-login
+    - buildpacks
+    - clusterstores
+    - clusterstacks
+    - builders
+    - images
+    - rebase
     - workshop-summary
