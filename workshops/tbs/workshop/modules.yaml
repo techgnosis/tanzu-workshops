@@ -19,4 +19,3 @@ modules:
     name: Keep that OCI image up-to-date
   workshop-summary:
     name: Workshop Summary
-    exit_sign: Finish Workshop

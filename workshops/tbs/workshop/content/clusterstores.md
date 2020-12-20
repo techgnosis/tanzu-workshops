@@ -1,4 +1,4 @@
-Now that we have a better idea of what buildpacks are, let's talk about `ClusterStores`. A `ClusterStore` is a Kubernetes resource that tells Tanzu Build Service which buildpacks are available to choose from when building source code.
+Now that we have a better idea of what buildpacks are, let's talk about [`ClusterStores`](https://github.com/pivotal/kpack/blob/master/docs/store.md). A `ClusterStore` is a Kubernetes resource that tells Tanzu Build Service which buildpacks are available to choose from when building source code.
 
 Which buildpacks should we choose? It depends on what buildpacks you want to make available to your developers. Here are a few things to consider:
 * Does your org enforce certain languages? Maybe everything must be .NET Core or Java

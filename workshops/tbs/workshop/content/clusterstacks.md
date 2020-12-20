@@ -10,7 +10,7 @@ TODO: Build images
 
 TODO: Run images
 
-A pair of base images, one build and one run, is called a "stack" and we inform Tanzu Build Service of this via a `ClusterStack` resource.
+A pair of base images, one build and one run, is called a "stack" and we inform Tanzu Build Service of this via a [`ClusterStack`](https://github.com/pivotal/kpack/blob/master/docs/stack.md) resource.
 
 You can create your own stacks or you can use stacks built and maintained by vmware. The vmware stacks come in three flavors:
 * Tiny
